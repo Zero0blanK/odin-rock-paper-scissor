@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="gameScore">
+        <div>
+            <div class="label">Comp Score</div>
+            <div class="score" id="botScore"></div>
+        </div>
+        <div >
+            <div class="label">Player Score</div>
+            <div class="score" id="playerScore"></div>
+        </div>
+    </div>
+    <div class="content">
+        <button class="btn" id="rock">Rock</button>
+        <button class="btn" id="paper">Paper</button>
+        <button class="btn" id="scissor">Scissor</button>
+    </div>
+    <div id="result"></div>
+
     <script src="game.js"></script>
 </body>
 </html>

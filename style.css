@@ -1,0 +1,49 @@
+.gameScore{
+    display: flex;
+    justify-content: space-around;
+}
+.label{
+    font-size: 2rem;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+.btn{
+    border: none;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgb(200, 255, 244);
+    color: rgb(255, 93, 193);
+    padding: 1rem;
+    cursor: pointer;
+    margin-bottom: 4rem;
+}
+
+.score{
+    width: 10rem;
+    height: 5rem;
+    text-align: center;
+    align-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#botScore{
+    background-color: rgb(255, 41, 41);
+    color: white;
+}
+
+#playerScore{
+    background-color: rgb(8, 255, 8);
+    color: white;
+}
+
+#result{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
